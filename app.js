@@ -1,9 +1,3 @@
-const fs = require('fs')
-const path = require('path')
-
-const playerPath = path.join(__dirname, 'src/db/player.json')
-const player = JSON.parse(fs.readFileSync(playerPath, 'utf8'));
-
-console.log(player)
+const playerUtils = require('./src/utils/player')
 
 require('./src/routes')
