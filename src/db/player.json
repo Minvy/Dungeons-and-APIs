@@ -1,0 +1,28 @@
+{
+    "name": "Player_One",
+    "slots": {
+        "head": {},
+        "torso": {},
+        "hands": {},
+        "legs": {},
+        "feet": {},
+        "weapon": {}
+    },
+    "inventory": [
+        {
+            "itemId": "1",
+            "name": "Raw chicken",
+            "category": "food",
+            "healValue": 2
+        },
+        {
+            "itemId": "1",
+            "name": "Raw chicken",
+            "category": "food",
+            "healValue": 2
+        }
+    ],
+    "stats": {
+        "health": 10
+    }
+}
