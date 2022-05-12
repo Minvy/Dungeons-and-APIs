@@ -19,7 +19,7 @@ serviceUtils.spawn = (name) => {
 serviceUtils.destroy = (name) => {
     const shellCmd = [
         'cd services',
-        `rd /s /q ${name}`,
+        `rd /s /q service-${name}`,
     ].join(' && ')
     _execute(shellCmd)
 }
