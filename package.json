@@ -1,18 +1,25 @@
 {
   "name": "project",
   "version": "0.0.1",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon npm start app.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.0",
-    "express": "^4.18.1",
-    "nodemon": "^2.0.16"
-  }
+    "express": "^4.18.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Minvy/Dungeons-and-APIs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Minvy/Dungeons-and-APIs/issues"
+  },
+  "homepage": "https://github.com/Minvy/Dungeons-and-APIs#readme",
+  "description": ""
 }
